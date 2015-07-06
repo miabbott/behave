@@ -154,7 +154,7 @@ This function allows you to, for example:
 
     @when('I do the same thing as before')
     def step_impl(context):
-        context.execute_steps(u'''
+        context.execute_steps('''
             when I press the big red button
              and I duck
         ''')
